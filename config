@@ -1,0 +1,36 @@
+{
+    "audio": "pipewire",
+    "bootloader": "grub-install",
+    "desktop-environment": "gnome",
+    "dry-run": false,
+    "gfx_driver": "Nvidia (proprietary)",
+    "harddrives": [
+        "/dev/vda"
+    ],
+    "hostname": "arch-linux",
+    "kernels": [
+        "linux",
+        "linux-zen",
+        "linux-lts"
+    ],
+    "keyboard-layout": "us",
+    "mirror-region": {},
+    "nic": {
+        "NetworkManager": true,
+        "nic": "Use NetworkManager (necessary to configure internet graphically in GNOME and KDE)"
+    },
+    "ntp": true,
+    "packages": [
+        "chromium",
+        "firefox"
+    ],
+    "profile": {
+        "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/desktop.py"
+    },
+    "script": "guided",
+    "swap": true,
+    "sys-encoding": "utf-8",
+    "sys-language": "en_US",
+    "timezone": "US/Pacific",
+    "version": "2.3.1"
+}
